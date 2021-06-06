@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Simple Filter Camera</string>
+
+    <string-array name="filter_array">
+        <item>None</item>
+        <item>RGB Adder</item>
+        <item>Pass Filter</item>
+        <item>Brightness</item>
+        <item>Inverter</item>
+    </string-array>
+
+    <string name="adder_red">Red</string>
+    <string name="adder_green">Green</string>
+    <string name="adder_blue">Blue</string>
+
+    <string name="pass_red">Red</string>
+    <string name="pass_green">Green</string>
+    <string name="pass_blue">Blue</string>
+    <string name="pass_gray">Gray</string>
+
+    <string name="pass_hue">Hue</string>
+    <string name="pass_saturation">Saturation</string>
+    <string name="pass_value">Value</string>
+
+    <string name="brt_contrast">Contrast</string>
+    <string name="brt_brightness">Brightness</string>
+
+    <array name="initial_pass_filter">
+        <item>100.0</item>
+        <item>200.0</item>
+    </array>
+
+    <integer name="initial_rgb_filter">50</integer>
+    -
+
+</resources>

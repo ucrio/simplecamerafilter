@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/filterViews"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/buttonDefault"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:minWidth="0dp"
+        android:minHeight="0dp"
+        android:background="#88AAAAAA"
+        android:scaleType="center"
+        android:text="Default"
+        android:textSize="10dp" />
+
+        <include layout="@layout/slider_set"
+            android:id="@+id/brtSliderSetAlpha" />
+
+        <include layout="@layout/slider_set"
+            android:id="@+id/brtSliderSetBeta" />
+
+</LinearLayout>

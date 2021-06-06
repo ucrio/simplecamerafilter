@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Simple Filter Camera</string>
+    <string-array name="filter_array">
+        <item>なし</item>
+        <item>フィルム</item>
+        <item>色抽出</item>
+        <item>明るさ</item>
+        <item>反転</item>
+    </string-array>
+
+    <string name="adder_red">Red</string>
+    <string name="adder_green">Green</string>
+    <string name="adder_blue">Blue</string>
+
+    <string name="pass_red">Red</string>
+    <string name="pass_green">Green</string>
+    <string name="pass_blue">Blue</string>
+    <string name="pass_gray">Gray</string>
+
+    <string name="pass_hue">色相</string>
+    <string name="pass_saturation">彩度</string>
+    <string name="pass_value">明度</string>
+
+    <string name="brt_contrast">コントラスト</string>
+    <string name="brt_brightness">明るさ</string>
+
+</resources>
