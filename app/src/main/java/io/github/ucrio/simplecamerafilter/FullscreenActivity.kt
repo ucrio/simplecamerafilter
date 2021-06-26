@@ -8,6 +8,7 @@ import android.graphics.*
 import android.graphics.drawable.BitmapDrawable
 import android.os.*
 import android.provider.MediaStore
+import android.text.method.LinkMovementMethod
 import android.util.Log
 import android.util.Rational
 import android.util.Size
@@ -16,6 +17,7 @@ import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
 import androidx.camera.core.*
 import androidx.constraintlayout.widget.ConstraintLayout
+import androidx.core.text.HtmlCompat
 import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.AdView
 import com.google.android.gms.ads.MobileAds
@@ -27,11 +29,6 @@ import java.io.FileOutputStream
 import java.text.SimpleDateFormat
 import java.util.*
 
-
-/**
- * An example full-screen activity that shows and hides the system UI (i.e.
- * status bar and navigation/system bar) with user interaction.
- */
 
 class FullscreenActivity : AppCompatActivity() {
 
@@ -86,6 +83,9 @@ class FullscreenActivity : AppCompatActivity() {
             val bmp = (imageViewMain.drawable as BitmapDrawable).bitmap
             saveBitmap(bmp, sdf.format(Calendar.getInstance().time), contentResolver)
         }
+
+        textPrivacyPolicy.text = HtmlCompat.fromHtml("<a href=\"https://ucrio.github.io/simplecamerafilter/\">Privacy Policy</a>", HtmlCompat.FROM_HTML_MODE_LEGACY)
+        textPrivacyPolicy.movementMethod = LinkMovementMethod.getInstance()
 
     }
 

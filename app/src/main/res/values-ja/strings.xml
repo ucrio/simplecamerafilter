@@ -12,6 +12,10 @@
     <string name="adder_green">Green</string>
     <string name="adder_blue">Blue</string>
 
+    <string name="adder_hue">色相</string>
+    <string name="adder_saturation">彩度</string>
+    <string name="adder_value">明度</string>
+
     <string name="pass_red">Red</string>
     <string name="pass_green">Green</string>
     <string name="pass_blue">Blue</string>

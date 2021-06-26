@@ -13,6 +13,10 @@
     <string name="adder_green">Green</string>
     <string name="adder_blue">Blue</string>
 
+    <string name="adder_hue">Hue</string>
+    <string name="adder_saturation">Saturation</string>
+    <string name="adder_value">Value</string>
+
     <string name="pass_red">Red</string>
     <string name="pass_green">Green</string>
     <string name="pass_blue">Blue</string>

@@ -11,7 +11,6 @@ import io.github.ucrio.simplecamerafilter.R
 import org.opencv.android.Utils
 import org.opencv.core.*
 import org.opencv.imgproc.Imgproc
-import org.opencv.imgcodecs.Imgcodecs
 
 class PassFilter(name: String): AbsFilter(name) {
 

@@ -3,16 +3,11 @@ package io.github.ucrio.simplecamerafilter.filters
 import android.graphics.Bitmap
 import android.widget.Button
 import android.widget.LinearLayout
-import android.widget.SeekBar
 import android.widget.TextView
 import com.google.android.material.slider.Slider
 import io.github.ucrio.simplecamerafilter.R
-import org.opencv.android.OpenCVLoader
 import org.opencv.android.Utils
 import org.opencv.core.*
-import org.opencv.imgcodecs.Imgcodecs
-import org.opencv.imgproc.Imgproc
-import java.util.*
 
 class BrightnessFilter (name: String): AbsFilter(name) {
 

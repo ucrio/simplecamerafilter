@@ -25,6 +25,7 @@
             android:layout_height="wrap_content"
             android:minWidth="0dp"
             android:minHeight="0dp"
+            android:layout_marginRight="10dp"
             android:background="#88AAAAAA"
             android:scaleType="center"
             android:text="Default"
